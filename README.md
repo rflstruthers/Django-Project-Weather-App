@@ -8,7 +8,7 @@ Below is a description of the story I worked on, along with code snippets and na
 ## Weather App
 This user story was to create a weather application that would display the weather forcast for the user specified location. I utilized two API's for this application: one to get the geographic coordinates of the location the user searched for, and one to get the weather data for that location. I took the JSON data and converted it to a dictionary data type and then constructed a new dictionary of the desired data.
 
-  `     locationUrl = 'http://www.mapquestapi.com/geocoding/v1/address?key=lSZeD1zxGvMTiOp6hbMj2YFfGAbt612T&location={}&maxResults=1'
+        locationUrl = 'http://www.mapquestapi.com/geocoding/v1/address?key=lSZeD1zxGvMTiOp6hbMj2YFfGAbt612T&location={}&maxResults=1'
         city = request.POST.get('City_Name', None)
         endPointLocation = locationUrl.format(city)
         locationDataJson = requests.get(endPointLocation).text
