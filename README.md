@@ -31,9 +31,9 @@ Similarly, I created a dictionary of the desired data from the weather API JSON 
                 'alert_desc' : weatherData['alerts'][0]['description'],
             }
         except:
-            return render(request, 'WeatherApp/weather.html', {'iconPaths' : iconPaths, 'location' : location, 'weather' : weather,                     'weekdays' : weekdays})
+            return render(request, 'WeatherApp/weather.html', {'iconPaths' : iconPaths, 'location' : location, 'weather' : weather,  'weekdays' : weekdays})
         else:
-            return render(request, 'WeatherApp/weather.html', {'alerts' : alerts, 'iconPaths' : iconPaths, 'location' : location,                       'weather' : weather, 'weekdays' : weekdays})
+            return render(request, 'WeatherApp/weather.html', {'alerts' : alerts, 'iconPaths' : iconPaths, 'location' : location,    'weather' : weather, 'weekdays' : weekdays})
             
 I wanted to display the day of the week for the current date as well as the next five days to go along with the weather forcast. I created a small for loop to get each desired weekday and constructed them into a dictionary.
             
