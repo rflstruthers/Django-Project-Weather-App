@@ -42,7 +42,7 @@ I wanted to display the day of the week for the current date as well as the next
                 for x in range(0, 6):
                     weekdays.append(base + datetime.timedelta(days = x))
                     
-Using  HTML, Django TEmplate Language, and CSS I displayed the weather data in user friendly and visually appealing way.
+Using  HTML, Django Template Language, and CSS I displayed the weather data in a user friendly and visually appealing way.
 
 This project gave me valuable experience creating an application to meet the needs of a user story. I was able to find the best APIs for my needs and utilize them to access the required data. I gained practice taking data from the back end and displaying it appropriately for the user.
       
