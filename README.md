@@ -1,7 +1,7 @@
 # Live Project
 
 ## Introduction
-For the last two weeks of my time at the tech academy, I worked with my peers in a team developing a full scale Django Web Application in Python. The existing project was a travel website and I was tasked with developing a new application for the site. I saw how a good developer works with what they have to make a quality product. I worked on a [full stack story](#weather-app) that I am very proud of and was abale to gain experience working on both the back end and the front end of an application. Over the two week sprint I also had the opportunity to work on some other project management and team programming [skills](#other-skills-learned) that have made me a better developer.
+For the last four weeks of my time at the tech academy, I worked with my peers in a team developing a full scale Django Web Application in Python. During a two week sprint, I developed a full stack application. The existing project was a travel website and I was tasked with developing a new application for the site. I saw how a good developer works with what they have to make a quality product. I worked on a [full stack story](#weather-app) that I am very proud of and was abale to gain experience working on both the back end and the front end of an application. Over the two week sprint I also had the opportunity to work on some other project management and team programming [skills](#other-skills-learned) that have made me a better developer.
 
 Below is a description of the story I worked on, along with code snippets and navigation links. Some of the full code files I worked on are in this repo.
 
